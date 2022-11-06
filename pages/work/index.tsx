@@ -4,7 +4,7 @@ import page_style from '../../styles/work.module.scss'
 import NavBar from '../../components/navbar';
 
 export async function getStaticProps() {
-    const res = await fetch('http://localhost:3001/work')
+    const res = await fetch('https://json-portfolio-data.vercel.app/work')
     const work = await res.json();
     return {
         props: {
