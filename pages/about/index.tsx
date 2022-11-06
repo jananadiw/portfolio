@@ -3,7 +3,6 @@ import styles from '../../styles/home.module.scss'
 import page_style from '../../styles/about.module.scss'
 import ccPreviewImage from '../../public/cconfetti.png';
 import NavBar from '../../components/navbar';
-import Footer from '../../components/footer';
 
 export default function About() {
 
@@ -52,7 +51,6 @@ export default function About() {
                     </div>
                 </div>
         </main>
-        <Footer />
         </div>
     )
 }

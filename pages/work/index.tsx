@@ -2,7 +2,6 @@ import Link from 'next/link'
 import styles from '../../styles/home.module.scss'
 import page_style from '../../styles/work.module.scss'
 import NavBar from '../../components/navbar';
-import Footer from '../../components/footer';
 
 export async function getStaticProps() {
     const res = await fetch('http://localhost:3001/work')
@@ -40,7 +39,6 @@ return (
             </div>
         ))}
     </main>
-    <Footer />
     </div>
 )
 }
