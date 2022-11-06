@@ -1,20 +1,25 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import styles from '../styles/Home.module.scss'
+import styles from '../styles/home.module.scss'
+import { Inter } from '@next/font/google'
+import Footer from '../components/footer'
+
+// If loading a variable font, you don't need to specify the font weight
+const inter = Inter()
 
 export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Portfolio</title>
-        <meta name="description" content="Portfolio of Jananadi" />
-        <link rel="icon" href="/favicon.ico" />
+        <title>Jananadi W</title>
+        <meta name="description" content="Jananadi" />
+        <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👩🏻</text></svg>"></link>
       </Head>
 
       <main className={styles.main}>
-        <h2 className={styles.title}>
-          Hello! 👋🏼
-        </h2>
+        <h3 className={styles.title}>
+          Hello! 👋🏼 
+        </h3>
         
         <p className={styles.description}>
           I'm Jananadi, a Full-Stack Developer <br />
@@ -22,41 +27,31 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
-        <Link href="/projects" className={styles.card}>
-            <h2>Projects & Articles &rarr;</h2>
-            <p>Take a look at few projects I did and currently working on, created and failed. </p>
+            <Link href="/projects" className={styles.card}>
+              <h2>Projects & Articles 👩🏻‍💻</h2>
+              <p>Check out few projects I did and currently working on, and some articles.</p>
+            </Link>
+
+          <Link href="/work" className={styles.card}>
+            <h2>Work 💼 </h2>
+            <p>Here are some work projects that I was a part of. They taught me a lot. </p>
           </Link>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h2>Work &rarr;</h2>
-            <p>Here are the work stuff i contributed to over the years. I had fun! </p>
-          </a>
+          <Link href="https://www.canvasconfetti.com" className={styles.card}>
+            <h2>Paintings 🙈</h2>
+            <p>Beside coding, I love to paint. Still an amateur, checkout some of my art.</p>
+          </Link>
 
-          <a
-            href="https://github.com/vercel/next.js/tree/canary/examples"
-            className={styles.card}
-          >
-            <h2>Paintings 🙈 &rarr;</h2>
-            <p>Beside being a programmer, I love to create art. Still an amateur, but here are some of my art.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.card}
-          >
-            <h2>About &rarr;</h2>
+          <Link href="/about" className={styles.card}>
+            <h2>About 👩🏻‍💼</h2>
+            {/* &rarr; -> */}
             <p>
-              Let me properly introduce myself. Find my contact details here as well. Thanks for visiting.
+              Let me introduce myself. Find my contact details here as well. Thanks for visiting!
             </p>
-          </a>
+          </Link>
         </div>
       </main>
-
-      <footer className={styles.footer}>
-      &copy; Jananadi Wedagedara 2022
-      </footer>
+    <Footer />
     </div>
   )
 }
