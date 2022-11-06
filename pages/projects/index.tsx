@@ -3,7 +3,6 @@ import styles from '../../styles/home.module.scss'
 import project_style from '../../styles/projects.module.scss'
 import ccPreviewImage from '../../public/cconfetti.png';
 import NavBar from '../../components/navbar';
-import Footer from '../../components/footer';
 
 export async function getStaticProps() {
   const res = await fetch('https://json-portfolio-data.vercel.app/projects')
@@ -50,7 +49,6 @@ export default function Projects({ projects }: any) {
             </div>
           ))}
       </main>
-      <Footer/>
     </div>
   )
 }
