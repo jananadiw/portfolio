@@ -1,0 +1,70 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "type": "project",
+      "name": "Canvas Confetti",
+      "url": "https://www.canvasconfetti.com",
+      "description": "This is a personal art portfolio site. Built with Javascript & Sass on VueJs. Used S3, Cloudfront for distribution and Github Actions for CI/CD.",
+      "repoLink": "https://github.com/plutach/cc_web"
+    },
+    {
+      "id": 2,
+      "type": "project",
+      "name": "Udemy Clone Site",
+      "url": "https://nextjs-udemy-clone.vercel.app",
+      "description": "A clone project which helped me learn ReactJs and NextJs. Built with Typescript, Sass on NextJs. Used GraphQL to fetch and post requests and vercel for distribution and CI/CD.",
+      "repoLink": "https://github.com/plutach/nextjs-udemy-clone"
+    },
+    {
+      "id": 3,
+      "type": "project",
+      "name": "Artwork Uploader",
+      "url": "",
+      "description": "Admin tool for uploading artwork for art portfolio site. Build using NestJs for the back-end and ReactJs on the front. The objects would save in an S3 bucket while saving the object url on a database.",
+      "repoLink": "https://github.com/plutach/cc_admin"
+    },
+    {
+      "id": 4,
+      "type": "article",
+      "name": "AWS CloudFront Invalidation Guide",
+      "url": "",
+      "description": "Simple how to article for AWS cloudfront invalidations.",
+      "repoLink": "https://jananadiw.medium.com/how-to-create-aws-cloudfront-invalidations-725e445b9816"
+    }
+  ],
+  "work":[
+    {
+        "id":1,
+        "type": "Front-End",
+        "project":"Property Management Systems",
+        "description":"Implemented a major features such as Cost management, Night Audit, Rate adjustment, Reservations management features etc. for property management systems (ONDA Wave), ONDA PMS.",
+        "stack":"VueJs, Vuetify, Typescript, GraphQL",
+        "demoUrl": "https://wave.onda.me/features/reservation-hub"
+    },
+    {
+        "id":2,
+        "type": "Full-Stack",
+        "project":"Internal Admin Tool",
+        "description":"Implemented key features of a property & reservation management tool to help operation-teams who used Postman to fetch and post reservation details.",
+        "stack":"VueJs3, NaiveUI, Typescript, NestJs, PrimaORM",
+        "demoUrl": "https://wave.onda.me/features/booking-engine"
+    },
+    {
+        "id": 3,
+        "type": "Back-End",
+        "project": "IntelEvac", 
+        "description": "Helped implementing web services for an Intelligent Evacuation System. Web services were able to communicate between LoRa devices, and detect hight decibel sounds such as shooting incidents.",
+        "stack": "Java & Spring Boot (For PC application), Javascript, Express (For Web applications)",
+        "demoUrl": "http://www.corners.co.kr/page/solution_03.php"
+    },
+    {
+        "id": 4,
+        "type": "Back-End",
+        "project": "InteleGuide", 
+        "description": "Intelligent Guidance System For Emergency Situations. Developed, tested, deployed, and maintained RESTFul APIs to deliver IoT sensory data (audio, gas, temperature) to/from gateways detect emergency situations.",
+        "stack": "Java & Spring Boot, Maven",
+        "demoUrl": "http://www.corners.co.kr/page/solution_02.php"
+    }
+  ]
+}
