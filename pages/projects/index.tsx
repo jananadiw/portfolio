@@ -31,8 +31,7 @@ export default function Projects({ projects }: any) {
       <main className={styles.main}>
         <h2 className={project_style.title}>Projects & Articles 👩🏻‍💻</h2>
 
-        <p className={styles.description}></p>
-    
+        <div className="mt-14">
         { projects.map((project: any, index: number) => (
             <div key={index} className={project_style.container}>
             <div className={project_style.container__row}>
@@ -48,6 +47,7 @@ export default function Projects({ projects }: any) {
               {/* <Image src={ccPreviewImage} alt="site-img" width={900} height={450}/> */}
             </div>
           ))}
+          </div>
       </main>
     </div>
   )

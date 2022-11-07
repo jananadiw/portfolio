@@ -16,18 +16,10 @@
     display: flex;
     flex: 1;
     padding: 2rem 0;
-    border-top: 1px solid #eaeaea;
     justify-content: center;
     align-items: center;
   }
-  
-  .footer a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-grow: 1;
-  }
-  
+
   .title a {
     color: #0070f3;
     text-decoration: none;
@@ -42,7 +34,7 @@
   .title {
     margin: 0;
     line-height: 1.15;
-    font-size: 4rem;
+    font-size: 3rem;
   }
   
   .title,
@@ -54,7 +46,7 @@
   .description {
     margin: 4rem 0;
     line-height: 1.5;
-    font-size: 1.5rem;
+    font-size: 1.15rem;
   }
   
   .code {
@@ -95,12 +87,12 @@
   
   .card h2 {
     margin: 0 0 1rem 0;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
   
   .card p {
     margin: 0;
-    font-size: 1.25rem;
+    font-size: 1.15rem;
     line-height: 1.5;
   }
   

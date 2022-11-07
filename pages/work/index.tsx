@@ -21,8 +21,7 @@ return (
     <NavBar />
     <main className={styles.main}>
         <h2 className={page_style.title}>Work Projects 💼 </h2>
-        <p className={styles.description}></p>
-    
+        <div className="mt-14">
         { work.map((item: any, index: number) => (
             <div key={index} className={page_style.container}>
             <div className={page_style.container__row}>
@@ -38,6 +37,7 @@ return (
             </div>
             </div>
         ))}
+        </div>
     </main>
     </div>
 )

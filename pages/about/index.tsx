@@ -28,7 +28,7 @@ export default function About() {
         <main className={styles.main}>
             <h2 className={page_style.title}>Little about me 👩🏻‍💼</h2>
 
-            <p className={styles.description}></p>
+            {/* <p className={styles.description}></p> */}
                 <div className={page_style.container}>
                     <div className="mb-8">
                     <p>Hey, I'm Jananadi. I'm a <span className="text-sky-600">software engineer</span> based in South Korea. Currently, I'm working as a <span className="text-sky-600"> full-stack developer </span> building web applications in the industry of Travel/Hospitality - Tech. </p><br/>
