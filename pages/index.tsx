@@ -23,7 +23,7 @@ export default function Home() {
 
         <div className={styles.grid}>
             <Link href="/projects" className={styles.card}>
-              <h2>Projects & Articles 👩🏻‍💻</h2>
+              <h2>Projects | Articles 👩🏻‍💻</h2>
               <p>Check out few projects I did and currently working on, and some articles.</p>
             </Link>
 
