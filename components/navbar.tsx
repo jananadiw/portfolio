@@ -11,7 +11,7 @@ export default function NavBar() {
                     <li><Link href="/about"><p className="hover:text-sky-600">About</p></Link></li>
                 </ul>
             </div>
-            <div className="block md:hidden justify-center px-20 text-xl">
+            <div className="block md:hidden justify-center px-18 text-xl">
                 <ul className="justify-between flex items-center">
                     <li><Link href="/"><p>🏠</p></Link></li>
                     <li><Link href="/projects"><p>👩🏻‍💻</p></Link></li>
