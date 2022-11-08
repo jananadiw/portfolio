@@ -29,7 +29,7 @@ export default function Projects({ projects }: any) {
     <div className={styles.container}>
       <NavBar />
       <main className={styles.main}>
-        <h2 className={project_style.title}>Projects | Articles 👩🏻‍💻</h2>
+        <h2 className={project_style.title}>Projects | Writing 👩🏻‍💻</h2>
 
         <div className="mt-14">
         { projects.map((project: any, index: number) => (
