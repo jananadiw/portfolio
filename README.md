@@ -1,6 +1,8 @@
 ## Portfolio Website
 A simple personal portfolio website to showcase and organize important personal and work projects all in one place.
 
+![Screenshot](screens.png)
+
 ## Features
 - Localization KR, EN
 - Dark/Light Mode
