@@ -7,6 +7,8 @@ A simple personal portfolio website to showcase and organize important personal 
 
 ## Build Setup
 ```bash
+npm i
+
 npm run dev
 # or
 yarn dev
