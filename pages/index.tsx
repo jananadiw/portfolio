@@ -22,16 +22,16 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
-            <Link href="/projects" className={styles.card}>
-              <h2>Projects | Writing 👩🏻‍💻</h2>
-              <p>Check out few projects I did and currently working on, and some articles.</p>
-            </Link>
-
           <Link href="/work" className={styles.card}>
             <h2>Work 💼 </h2>
             <p>Here are some work projects that I was a part of. They taught me a lot. </p>
           </Link>
 
+          <Link href="/projects" className={styles.card}>
+            <h2>Projects | Writing 👩🏻‍💻</h2>
+            <p>Check out few projects I did and currently working on, and some articles.</p>
+          </Link>
+  
           <Link href="https://www.canvasconfetti.com" className={styles.card}>
             <h2>Paintings 🙈</h2>
             <p>Beside coding, I love to paint. Still an amateur, checkout some of my art.</p>
