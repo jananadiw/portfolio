@@ -11,7 +11,7 @@ export default function Home() {
       </Head>
 
       <main className="min-h-screen py-16 flex flex-1 flex-col items-center align-center">
-        <h3 className="m-0 leading-tight text-5xl">
+        <h3 className="m-0 leading-tight text-5xl text-center">
           Hello! 👋🏼 
         </h3>
         

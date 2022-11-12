@@ -24,7 +24,7 @@ export default function About() {
         <div className="px-6 dark:text-slate-300">
         <NavBar />
         <main className="min-h-screen pt-16 pb-8 flex flex-1 flex-col items-center align-center">
-            <h2 className="m-0 leading-tight text-4xl">Little about me 👩🏻‍💼</h2>
+            <h2 className="m-0 leading-tight text-4xl text-center">Little about me 👩🏻‍💼</h2>
 
             {/* <p className={styles.description}></p> */}
                 <div className="max-w-5xl mt-14 p-6 text-xl text-left border border-gray-200 rounded-xl">

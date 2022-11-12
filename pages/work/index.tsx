@@ -18,7 +18,7 @@ return (
     <div className="px-6 dark:text-slate-300">
     <NavBar />
     <main className="min-h-screen py-16 flex flex-1 flex-col items-center align-center">
-        <h2 className="m-0 leading-tight text-4xl">Work Projects 💼 </h2>
+        <h2 className="m-0 leading-tight text-4xl text-center">Work Projects 💼 </h2>
         <div className="mt-14">
         { work.map((item: any, index: number) => (
             <div key={index} className="max-w-6xl m-6 p-12 text-left border border-gray-200 rounded-xl">

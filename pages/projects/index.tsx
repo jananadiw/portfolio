@@ -27,7 +27,7 @@ export default function Projects({ projects }: any) {
     <div className="px-6 dark:text-slate-300">
       <NavBar />
       <main className="min-h-screen py-16 flex flex-1 flex-col items-center align-center">
-        <h2 className="m-0 leading-tight text-4xl">Projects | Writing 👩🏻‍💻</h2>
+        <h2 className="m-0 leading-tight text-4xl text-center">Projects | Writing 👩🏻‍💻</h2>
 
         <div className="mt-14">
         { projects.map((project: any, index: number) => (
@@ -35,7 +35,7 @@ export default function Projects({ projects }: any) {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
               <div className="...">
                 <h2 className='mb-2 text-2xl'>{project.name}</h2>
-                <p className='text-lg hover:text-blue-600'><Link href={`${project.url}`} passHref={true}>{project.url}</Link></p>
+                <p className='text-lg hover:text-blue-600 break-words'><Link href={`${project.url}`} passHref={true}>{project.url}</Link></p>
               </div>
               <div className="col-span-2 ... text-lg leading-8">
                 <p>{project.description}</p>
