@@ -1,6 +1,4 @@
 import Link from 'next/link'
-import styles from '../../styles/home.module.scss'
-import page_style from '../../styles/about.module.scss'
 import ccPreviewImage from '../../public/cconfetti.png';
 import NavBar from '../../components/navbar';
 
@@ -23,13 +21,13 @@ export default function About() {
     }
 
     return (
-        <div className={styles.container}>
+        <div className="px-6 dark:text-slate-300">
         <NavBar />
-        <main className={styles.main}>
-            <h2 className={page_style.title}>Little about me 👩🏻‍💼</h2>
+        <main className="min-h-screen pt-16 pb-8 flex flex-1 flex-col items-center align-center">
+            <h2 className="m-0 leading-tight text-4xl">Little about me 👩🏻‍💼</h2>
 
             {/* <p className={styles.description}></p> */}
-                <div className={page_style.container}>
+                <div className="max-w-5xl mt-14 p-6 text-xl text-left border border-gray-200 rounded-xl">
                     <div className="mb-8">
                     <p>Hey, I'm Jananadi. I'm a <span className="text-sky-600">software engineer</span> based in South Korea. Currently, I'm working as a <span className="text-sky-600"> full-stack developer </span> building web applications in the industry of Travel/Hospitality - Tech. </p><br/>
                     <p>Previously, I worked in <span className="text-sky-600">R&D</span> as a <span className="text-sky-600">back-end</span> developer in <span className="text-sky-600">IoT/Safety-Tech industry</span>, building APIs & Web Services.</p><br/>
