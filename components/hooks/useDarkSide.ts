@@ -1,6 +1,6 @@
 import { useEffect, useState} from "react";
 
-export default function useDarkSide() {
+export default function useDarkSide(): any {
 
     const [theme, setTheme] = useState(
         typeof window !== "undefined" ? localStorage.theme : "light"
