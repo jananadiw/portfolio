@@ -1,10 +1,14 @@
-import Link from 'next/link';
-import styles from '../styles/home.module.scss'
+import Switcher from './switcher';
 
 export default function Footer() {
     return (
         <div>
-            <footer className={styles.footer}>&copy; Jananadi Wedagedara 2022</footer>
+            <div>
+            <Switcher />
+            </div>
+            <footer className="flex flex-1 py-6 items-center justify-center dark:text-slate-300">
+                &copy; Jananadi Wedagedara 2022
+            </footer>
         </div>
     )
 }
