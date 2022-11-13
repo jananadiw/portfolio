@@ -17,7 +17,7 @@ export default function Work({ work }: any) {
 return (
     <div className="px-6 dark:text-slate-300">
     <NavBar />
-    <main className="min-h-screen py-16 flex flex-1 flex-col items-center align-center">
+    <main className="py-16 flex flex-1 flex-col items-center align-center">
         <h2 className="m-0 leading-tight text-4xl text-center">Work Projects 💼 </h2>
         <div className="mt-14">
         { work.map((item: any, index: number) => (
