@@ -9,12 +9,12 @@ export default function About() {
     }
 
     const downloadResume = () => {
-        fetch('Jananadi.pdf').then((res) => {
+        fetch('Resume.pdf').then((res) => {
             res.blob().then((blob) => {
                 const resumeUrl = window.URL.createObjectURL(blob);
                 let alink = document.createElement('a');
                 alink.href = resumeUrl;
-                alink.download = 'Jananadi.pdf';
+                alink.download = 'Resume.pdf';
                 alink.click();
             })
         })
