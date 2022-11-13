@@ -2,11 +2,11 @@ import Switcher from './switcher';
 
 export default function Footer() {
     return (
-        <div>
-            <div>
+        <div className="py-8 items-center justify-center dark:text-slate-300">
+            <div className="block ">
             <Switcher />
             </div>
-            <footer className="flex flex-1 py-6 items-center justify-center dark:text-slate-300">
+            <footer className="py-4">
                 &copy; Jananadi Wedagedara 2022
             </footer>
         </div>

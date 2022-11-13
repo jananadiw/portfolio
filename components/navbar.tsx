@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 export default function NavBar() {
     return (
-        <div className="m-8 dark:text-slate-300">
+        <div className="m-8 p-8 dark:text-slate-300 h-16 items-center align-center ">
             <div className="hidden md:block text-base">
                 <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
                     <li><Link href="/"><p className="hover:text-sky-600">Home</p></Link></li>

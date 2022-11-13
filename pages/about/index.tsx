@@ -23,7 +23,7 @@ export default function About() {
     return (
         <div className="px-6 dark:text-slate-300">
         <NavBar />
-        <main className="min-h-screen pt-16 pb-8 flex flex-1 flex-col items-center align-center">
+        <main className="py-28 align-center">
             <h2 className="m-0 leading-tight text-4xl text-center">Little about me 👩🏻‍💼</h2>
 
             {/* <p className={styles.description}></p> */}
