@@ -1,5 +1,5 @@
-## Portfolio Website
-A simple personal portfolio website to showcase and organize important personal and work projects all in one place.
+# Developer Portfolio Website
+A simple personal portfolio website to showcase and organize important personal and work projects all in one place, built with NextJs & Tailwind CSS.
 
 <img src="/public/screens.png" width="800"/>
 
@@ -9,13 +9,12 @@ A simple personal portfolio website to showcase and organize important personal 
 
 ## Build Setup
 ```bash
-npm i
+install project
+npm install
 
+Run on localhost on port 3000.
 npm run dev
-# or
-yarn dev
 ```
-
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 ## Directory Structure
