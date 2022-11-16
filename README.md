@@ -6,7 +6,7 @@
 > A simple personal portfolio website to showcase and organize important personal and work projects all in one place, built with NextJs & Tailwind CSS.
 
 ## Preview
-<img src="/public/screens.png" width="800"/>
+<img src="/public/preview.png" width="800"/>
 
 ## Features
 - Localization KR, EN
