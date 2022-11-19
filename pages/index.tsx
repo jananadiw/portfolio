@@ -1,9 +1,9 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import useTransition from 'next-translate/useTranslation'
+import useTranslation from 'next-translate/useTranslation'
 
 export default function Home() {
-  const { t } = useTransition('common')
+  const { t } = useTranslation('common')
 
   return (
     <div className="px-6 dark:text-slate-300">

@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import NavBar from '../../components/navbar'
-import useTransition from 'next-translate/useTranslation'
+import useTranslation from 'next-translate/useTranslation'
 
 export async function getStaticProps() {
   const res = await fetch('https://json-portfolio-data.vercel.app/projects')
@@ -13,7 +13,7 @@ export async function getStaticProps() {
 }
 
 function getViewMoreText(props: any) {
-  const { t } = useTransition()
+  const { t } = useTranslation()
   if (props.type === 'project') {
     return t('common:visit_github')
   } else {
@@ -23,7 +23,7 @@ function getViewMoreText(props: any) {
 
 // TODO: Type projects
 export default function Projects({ projects }: any) {
-  const { t } = useTransition()
+  const { t } = useTranslation()
   return (
     <div className="px-6 dark:text-slate-300">
       <NavBar />
