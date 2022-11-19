@@ -12,7 +12,7 @@ export default function Home() {
           {t('greeting')}
         </h3>
 
-        <p className="m-16 leading-7 text-center text-xl whitespace-pre">
+        <p className="m-16 leading-7 text-center text-xl whitespace-pre-line">
           {t('introduction')}
         </p>
 
