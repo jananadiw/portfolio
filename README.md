@@ -3,7 +3,7 @@
 [![Package - next](https://img.shields.io/github/package-json/dependency-version/plutach/portfolio/next?color=blue)](https://www.npmjs.com/package/next)
 [![Deployed with - Vercel](https://img.shields.io/badge/Deployed_with-Vercel-black)](https://)
 
-> A simple personal portfolio website to showcase and organize important personal and work projects all in one place, built with NextJs & Tailwind CSS.
+> A simple personal portfolio website to showcase and organize important personal and work projects all in one place, built with NextJs & Tailwind CSS and [next-translate](https://github.com/aralroca/next-translate).
 
 ## Preview
 <img src="/public/preview.png" width="800"/>
