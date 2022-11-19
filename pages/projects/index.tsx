@@ -3,7 +3,7 @@ import NavBar from '../../components/navbar'
 import useTransition from 'next-translate/useTranslation'
 
 export async function getStaticProps() {
-  const res = await fetch('http://localhost:3001/projects')
+  const res = await fetch('https://json-portfolio-data.vercel.app/projects')
   const projects = await res.json()
   return {
     props: {
