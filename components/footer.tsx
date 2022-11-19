@@ -6,7 +6,7 @@ export default function Footer() {
     <div className="py-8 items-center justify-center dark:text-slate-300">
       <div className="block ">
         <Switcher />
-        {/* <LanguageSelector /> */}
+        <LanguageSelector />
       </div>
       <footer className="py-4">&copy; Jananadi Wedagedara 2022</footer>
     </div>

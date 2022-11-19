@@ -8,11 +8,11 @@ export default function LanguageSelector() {
   return (
     <>
       <div>
-        <ul>
+        <ul className="flex items-center justify-center text-2xl space-x-4">
           {router.locales?.map((locale) => (
             <li key={locale}>
               <Link href={router.asPath} locale={locale}>
-                {locale}
+                {locale === 'en-US' ? '🇺🇸' : '🇰🇷'}
               </Link>
             </li>
           ))}
