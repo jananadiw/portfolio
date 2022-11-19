@@ -40,7 +40,7 @@ export default function About() {
             <br />
           </div>
           <div>
-            <p className="text-red-400">Reach out to me 📬</p>
+            <p className="text-red-400">{t('common:contact')}</p>
             <div className="w-2/5 flex justify-between cursor-pointer">
               <Link href="https://github.com/plutach">
                 <p className="hover:text-red-400">Github</p>
@@ -67,7 +67,7 @@ export default function About() {
                 >
                   <path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" />
                 </svg>
-                <span>Download Resume</span>
+                <span>{t('common:download_cv')}</span>
               </button>
             </div>
           </div>
