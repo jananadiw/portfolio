@@ -12,7 +12,7 @@ export async function getStaticProps() {
   }
 }
 
-function getViewMoreText(props: any) {
+function ViewMoreText(props: any) {
   const { t } = useTranslation()
   if (props.type === 'project') {
     return t('common:visit_github')
@@ -51,7 +51,7 @@ export default function Projects({ projects }: any) {
                   <p>{t(`projects:${project.description}`)}</p>
                   <h4 className="hover:text-blue-600">
                     <Link href={`${project.repoLink}`} passHref={true}>
-                      {getViewMoreText(project)} &rarr;
+                      {ViewMoreText(project)} &rarr;
                     </Link>
                   </h4>
                 </div>

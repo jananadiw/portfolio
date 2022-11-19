@@ -32,9 +32,9 @@ export default function About() {
             <Trans
               i18nKey="about:content"
               components={[
-                <Component />,
-                <span className="text-sky-600" />,
-                <br />,
+                <Component key="" />,
+                <span className="text-sky-600" key="" />,
+                <br key="" />,
               ]}
             />
             <br />
