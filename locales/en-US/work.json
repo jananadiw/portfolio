@@ -1,0 +1,11 @@
+
+{
+    "title_1": "Property Management Systems",
+    "intro_1": "Implemented a major features such as Cost management, Night Audit, Rate adjustment, Reservations management features etc. for property management systems (ONDA Wave), ONDA PMS.",
+    "title_2": "Internal Admin Tool",
+    "intro_2": "Implemented key features of a property & reservation management tool to help operation-teams who used Postman to fetch and post reservation details.",
+    "title_3": "IntelEvac",
+    "intro_3": "Helped implementing web services for an Intelligent Evacuation System. Web services were able to communicate between LoRa devices, and detect hight decibel sounds such as shooting incidents.",
+    "title_4": "InteleGuide",
+    "intro_4": "Intelligent Guidance System For Emergency Situations. Developed, tested, deployed, and maintained RESTFul APIs to deliver IoT sensory data (audio, gas, temperature) to/from gateways detect emergency situations."
+}

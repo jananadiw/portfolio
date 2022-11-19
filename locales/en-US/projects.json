@@ -1,0 +1,6 @@
+{
+    "intro_cc": "This is a personal art portfolio site. Built with Javascript & Sass on VueJs. Used S3, Cloudfront for distribution and Github Actions for CI/CD.",
+    "intro_udemy_clone": "A clone project which helped me learn ReactJs and NextJs. Built with Typescript, Sass on NextJs. Used GraphQL to fetch and post requests and vercel for distribution and CI/CD.",
+    "intro_art_uploader": "Admin tool for uploading artwork for art portfolio site. Build using NestJs for the back-end and ReactJs on the front. The objects would save in an S3 bucket while saving the object url on a database.",
+    "intro_article": "Simple how to article for AWS cloudfront invalidations."
+}

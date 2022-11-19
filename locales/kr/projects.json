@@ -1,0 +1,6 @@
+{
+    "intro_cc": "개인 그림 포트폴리오 사이트 입니다. Javascript & Sass on VueJs로 구축되었습니다. 배포를 위해 S3, Cloudfront를 사용하고 CI/CD를 위해 Github Actions를 사용했습니다.",
+    "intro_udemy_clone": "ReactJs와 NextJs를 배울 수 있도록 도와준 클론 프로젝트 이였습니다. Typescript, Sass 와 NextJs로 제작되었습니다. GraphQL을 사용하여 배포 및 CI/CD에 대한 요청과 버셀을 가져오고 게시했습니다.",
+    "intro_art_uploader": "아트 포트폴리오 사이트의 아트워크를 업로드하기 위한 관리 도구입니다. 백엔드에 NestJs를 사용하고 전면에 ReactJs를 사용하여 빌드합니다. 개체는 S3 버킷에 저장하고 개체 URL은 데이터베이스에 저장합니다.",
+    "intro_article": "AWS Cloudfront 사용법에 대한 간단한 정리한 미디움 끌 입니다."
+}

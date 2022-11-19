@@ -1,0 +1,19 @@
+{
+    "greeting": "Hello! 👋🏼",
+    "introduction": "I'm Jananadi, an Expat Full-Stack Developer\nbased in Seoul, South Korea.",
+    "label_work": "Work 💼",
+    "label_projects": "Projects | Writing 👩🏻‍💻",
+    "label_paintings": "Paintings 🙈",
+    "label_about": "About 👩🏻‍💼",
+    "intro_work": "Check out some work projects that I was a part of over the last few years. They've taught me a lot.",
+    "intro_projects": "Here are few projects I did and currently working on, and some articles.",
+    "intro_paintings": "Beside coding, I love to paint. Still an amateur, checkout some of my art.",
+    "intro_about":"Let me introduce myself. Find my contact details here as well, & Thanks for visiting!",
+    "nav_home": "Home",
+    "nav_work": "Work",
+    "nav_projects": "Projects",
+    "nav_about": "About",
+    "visit_url": "Product Url",
+    "visit_github": "View Code in Github",
+    "visit_article": "View Article"
+}
