@@ -33,7 +33,7 @@ export default function About() {
               i18nKey="about:content"
               components={[
                 <Component key="" />,
-                <span className="text-sky-600" key="" />,
+                <span className="text-indigo-400" key="" />,
                 <br key="" />,
               ]}
             />

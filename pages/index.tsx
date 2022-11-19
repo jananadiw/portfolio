@@ -19,7 +19,7 @@ export default function Home() {
         <div className="max-w-5xl flex flex-wrap items-center justify-center">
           <Link
             href="/work"
-            className="max-w-md m-4 p-6 text-left inherit no-underline border border-gray-200 rounded-xl hover:text-blue-600 hover:border-blue-600"
+            className="max-w-md m-4 p-6 text-left inherit no-underline border border-gray-200 rounded-xl hover:text-indigo-400"
           >
             <h2 className="mb-4 text-2xl">{t('label_work')}</h2>
             <p className="mb-5 text-lg">{t('intro_work')}</p>
@@ -27,7 +27,7 @@ export default function Home() {
 
           <Link
             href="/projects"
-            className="max-w-md m-4 p-6 text-left inherit no-underline border border-gray-200 rounded-xl hover:text-blue-600 hover:border-blue-600"
+            className="max-w-md m-4 p-6 text-left inherit no-underline border border-gray-200 rounded-xl hover:text-indigo-400"
           >
             <h2 className="mb-4 text-2xl">{t('label_projects')}</h2>
             <p className="mb-5 text-lg">{t('intro_projects')}</p>
@@ -35,7 +35,7 @@ export default function Home() {
 
           <Link
             href="https://www.canvasconfetti.com"
-            className="max-w-md m-4 p-6 text-left inherit no-underline border border-gray-200 rounded-xl hover:text-blue-600 hover:border-blue-600"
+            className="max-w-md m-4 p-6 text-left inherit no-underline border border-gray-200 rounded-xl hover:text-indigo-400"
           >
             <h2 className="mb-4 text-2xl">{t('label_paintings')}</h2>
             <p className="mb-5 text-lg">{t('intro_paintings')}</p>
@@ -43,7 +43,7 @@ export default function Home() {
 
           <Link
             href="/about"
-            className="max-w-md m-4 p-6 text-left inherit no-underline border border-gray-200 rounded-xl hover:text-blue-600 hover:border-blue-600"
+            className="max-w-md m-4 p-6 text-left inherit no-underline border border-gray-200 rounded-xl hover:text-indigo-400"
           >
             <h2 className="mb-4 text-2xl">{t('label_about')}</h2>
             {/* &rarr; -> */}

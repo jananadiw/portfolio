@@ -1,6 +1,13 @@
 import Link from 'next/link'
 import useTransition from 'next-translate/useTranslation'
 
+// const menuItems = [
+//   { id: 'home', name: 'nav_home' , path: '/'},
+//   { id: 'work', name: 'nav_work' , path: '/work'},
+//   { id: 'projects', name: 'nav_projects' , path: '/projects'},
+//   { id: 'about', name: 'nav_about' , path: '/about'},
+// ]
+
 export default function NavBar() {
   const { t } = useTransition('common')
   return (
@@ -9,22 +16,22 @@ export default function NavBar() {
         <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
           <li>
             <Link href="/">
-              <p className="hover:text-sky-600">{t('nav_home')}</p>
+              <p className="hover:text-indigo-400">{t('nav_home')}</p>
             </Link>
           </li>
           <li>
             <Link href="/work">
-              <p className="hover:text-sky-600">{t('nav_work')}</p>
+              <p className="hover:text-indigo-400">{t('nav_work')}</p>
             </Link>
           </li>
           <li>
             <Link href="/projects">
-              <p className="hover:text-sky-600">{t('nav_projects')}</p>
+              <p className="hover:text-indigo-400">{t('nav_projects')}</p>
             </Link>
           </li>
           <li>
             <Link href="/about">
-              <p className="hover:text-sky-600">{t('nav_about')}</p>
+              <p className="hover:text-indigo-400">{t('nav_about')}</p>
             </Link>
           </li>
         </ul>
