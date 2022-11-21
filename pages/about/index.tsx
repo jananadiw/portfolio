@@ -81,7 +81,7 @@ export default function About() {
               <span className="my-4 md:mx-4">
                 <button className="w-80 bg-red-300 hover:bg-red-400 text-gray-700 font-bold py-3 px-4 rounded inline-flex items-center justify-center">
                   <Link
-                    href="https://jananadiw.notion.site/Resume-ac9acc651ac846cebba7749cb5016abeㄹ"
+                    href="https://jananadiw.notion.site/Resume-ac9acc651ac846cebba7749cb5016abe"
                     passHref={false}
                   >
                     {t('common:see_cv')}
