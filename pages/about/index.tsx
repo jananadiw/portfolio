@@ -43,12 +43,15 @@ export default function About() {
             <p className="text-red-400">{t('common:contact')}</p>
             <div className="mt-5 flex flex-row cursor-pointer justify-center text-center">
               <div className="px-4">
-                <Link href="https://github.com/plutach">
+                <Link href="https://github.com/plutach" target="_blank">
                   <p className="hover:text-red-400 font-bold">Github</p>
                 </Link>
               </div>
               <div className="px-4">
-                <Link href="https://www.linkedin.com/in/jananadiw/">
+                <Link
+                  href="https://www.linkedin.com/in/jananadiw/"
+                  target="_blank"
+                >
                   <p className="hover:text-red-400 font-bold">LinkedIn</p>
                 </Link>
               </div>
@@ -83,6 +86,7 @@ export default function About() {
                   <Link
                     href="https://jananadiw.notion.site/Resume-ac9acc651ac846cebba7749cb5016abe"
                     passHref={false}
+                    target="_blank"
                   >
                     {t('common:see_cv')}
                   </Link>
