@@ -8,14 +8,7 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <Layout>
        <AnimatePresence mode='wait'>
-       <motion.div
-        key="modal"
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        exit={{ opacity: 0 }}
-      >
       <Component {...pageProps} />
-      </motion.div>
       </AnimatePresence>
     </Layout>
   )
