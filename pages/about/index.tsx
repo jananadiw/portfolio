@@ -2,6 +2,7 @@ import Link from 'next/link'
 import NavBar from '../../components/navbar'
 import useTransition from 'next-translate/useTranslation'
 import Trans from 'next-translate/Trans'
+import { motion } from 'framer-motion'
 
 export default function About() {
   const Component = (props: any) => <p {...props} />
@@ -23,6 +24,7 @@ export default function About() {
   }
 
   return (
+    <motion.div key="modal" initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}>
     <div className="px-6 dark:text-slate-300">
       <NavBar />
       <main className="py-28 align-center">
@@ -97,5 +99,6 @@ export default function About() {
         </div>
       </main>
     </div>
+    </motion.div>
   )
 }

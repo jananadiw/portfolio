@@ -1,11 +1,13 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import useTranslation from 'next-translate/useTranslation'
+import { motion } from "framer-motion"
 
 export default function Home() {
   const { t } = useTranslation('common')
 
   return (
+    <motion.div key="modal" initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}>
     <div className="px-6 dark:text-slate-300">
       <main className="h-full pt-16 pb-20 align-center">
         <h3 className="m-0 leading-tight text-5xl text-center">
@@ -52,5 +54,6 @@ export default function Home() {
         </div>
       </main>
     </div>
+    </motion.div>
   )
 }

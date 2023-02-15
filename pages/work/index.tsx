@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import NavBar from '../../components/navbar'
 import useTranslation from 'next-translate/useTranslation'
+import { motion } from 'framer-motion'
 
 export async function getStaticProps() {
   const res = await fetch('https://json-portfolio-data.vercel.app/work')
@@ -16,6 +17,7 @@ export async function getStaticProps() {
 export default function Work({ work }: any) {
   const { t } = useTranslation()
   return (
+    <motion.div key="modal" initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}>
     <div className="px-6 dark:text-slate-300">
       <NavBar />
       <main className="py-16 align-center">
@@ -54,5 +56,6 @@ export default function Work({ work }: any) {
         </div>
       </main>
     </div>
+    </motion.div>
   )
 }
