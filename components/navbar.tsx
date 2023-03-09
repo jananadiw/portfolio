@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import useTransition from 'next-translate/useTranslation'
 import { useRouter } from 'next/router'
+import { useScrollPosition } from './hooks/useScrollPosition'
 
 const menuItems = [
   { id: 'home', name: 'nav_home', path: '/' },
@@ -12,8 +13,14 @@ const menuItems = [
 export default function NavBar() {
   const { t } = useTransition('common')
   const router = useRouter()
+  const scrollPosition = useScrollPosition();
+
+  const classNames = (...classes: any) => {
+    return classes.filter(Boolean).join(' ');
+  }
+
   return (
-    <div className="m-8 p-8 dark:text-slate-300 h-16 items-center align-center ">
+    <div className="m-0 p-16 dark:text-slate-300 dark:bg-neutral-900 bg-white h-20 items-center align-center sticky top-0 w-screen drop-shadow">
       <div className="hidden md:block text-base">
         <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
           {menuItems.map((menu) => {
