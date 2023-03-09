@@ -27,10 +27,10 @@ export default function Projects({ projects }: any) {
   const { t } = useTranslation()
   return (
     <motion.div key="modal" initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}>
-    <div className="px-6 dark:text-slate-300">
-      <NavBar />
-      <main className="py-16 align-center">
-        <h2 className="m-0 leading-tight text-4xl text-center">
+    <NavBar />
+    <main>
+    <div className="m-0 p-16 dark:text-slate-300">
+        <h2 className="leading-tight text-4xl text-center">
           {t('common:label_projects')}
         </h2>
 
@@ -38,7 +38,7 @@ export default function Projects({ projects }: any) {
           {projects.map((project: any, index: number) => (
             <div
               key={index}
-              className="max-w-6xl m-6 p-12 text-left border border-gray-200 rounded-xl"
+              className="m-6 p-12 text-left border border-gray-200 rounded-xl"
             >
               <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                 <div className="...">
@@ -67,8 +67,8 @@ export default function Projects({ projects }: any) {
             </div>
           ))}
         </div>
-      </main>
     </div>
+    </main>
     </motion.div>
   )
 }

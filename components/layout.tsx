@@ -7,7 +7,7 @@ import Footer from './footer'
 export default function Layout({ children }: any) {
   return (
     <>
-      <div className='min-h-screen flex flex-col items-center justify-center transmission duration-200 dark:bg-neutral-900'>
+      <div className='flex flex-col items-center justify-center dark:bg-neutral-900'>
       {/* <Navbar /> */}
       <Header />
       <main>{children}</main>
