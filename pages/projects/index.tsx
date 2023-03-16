@@ -28,8 +28,7 @@ export default function Projects({ projects }: any) {
   return (
     <motion.div key="modal" initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}>
     <NavBar />
-    <main>
-    <div className="m-0 p-16 dark:text-slate-300">
+    <div className="max-w-5xl py-8 dark:text-slate-300 items-center">
         <h2 className="leading-tight text-4xl text-center">
           {t('common:label_projects')}
         </h2>
@@ -68,7 +67,6 @@ export default function Projects({ projects }: any) {
           ))}
         </div>
     </div>
-    </main>
     </motion.div>
   )
 }

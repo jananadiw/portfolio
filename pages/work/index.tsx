@@ -19,7 +19,7 @@ export default function Work({ work }: any) {
   return (
     <motion.div key="modal" initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}>
       <NavBar />
-      <main className="py-16 align-center dark:text-slate-300 items-center">
+      <div className="max-w-5xl py-8 align-center dark:text-slate-300 items-center">
         <h2 className="m-0 leading-tight text-4xl text-center">
           {t('common:label_work')}
         </h2>
@@ -53,7 +53,7 @@ export default function Work({ work }: any) {
             </div>
           ))}
         </div>
-      </main>
+      </div>
     </motion.div>
   )
 }

@@ -7,12 +7,12 @@ import Footer from './footer'
 export default function Layout({ children }: any) {
   return (
     <>
-      <div className='flex flex-col items-center justify-center dark:bg-neutral-900'>
+      <main className='font-raleway flex flex-col items-center justify-center dark:bg-neutral-900'>
       {/* <Navbar /> */}
       <Header />
-      <main>{children}</main>
+        {children}
       <Footer />
-      </div>
+      </main>
     </>
   )
 }

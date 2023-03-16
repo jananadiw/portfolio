@@ -25,12 +25,11 @@ export default function About() {
 
   return (
     <motion.div key="modal" initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}>
-    <div className="px-6 dark:text-slate-300">
-      <NavBar />
-      <main className="py-28 align-center">
-        <h2 className="m-0 leading-tight text-4xl text-center">{t('title')}</h2>
-        <div className="max-w-5xl mt-14 p-6 text-lg text-left border border-gray-200 rounded-xl">
-          <div className="mb-8 whitespace-pre-line">
+    <NavBar />
+    <div className="m-0 py-12 dark:text-slate-300">
+        <div className='max-w-5xl m-4 p-2 border text-lg text-left border-gray-200 rounded-xl'>
+        <h2 className="leading-tight text-4xl text-center">{t('title')}</h2>
+          <div className="m-8 whitespace-pre-line">
             <Trans
               i18nKey="about:content"
               components={[
@@ -97,8 +96,7 @@ export default function About() {
             </div>
           </div>
         </div>
-      </main>
-    </div>
+        </div>
     </motion.div>
   )
 }

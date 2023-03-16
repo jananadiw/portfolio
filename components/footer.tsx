@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 
 export default function Footer() {
   return (
-    <div className="py-8 items-center justify-center dark:text-slate-300">
+    <div className="w-full py-8 text-center  items-center justify-center dark:text-slate-300">
       <div className="block ">
         <Switcher />
         <LanguageSelector />

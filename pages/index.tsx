@@ -8,7 +8,6 @@ export default function Home() {
 
   return (
     <motion.div key="modal" initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}>
-      <main>
         <div className="m-0 px-6 py-24 dark:text-slate-300 align-center">
         <h3 className="leading-tight text-5xl text-center">
           {t('greeting')}
@@ -53,7 +52,6 @@ export default function Home() {
           </Link>
         </div>
        </div>
-      </main>
     </motion.div>
   )
 }
