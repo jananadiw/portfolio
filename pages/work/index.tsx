@@ -17,17 +17,18 @@ export async function getStaticProps() {
 export default function Work({ work }: any) {
   const { t } = useTranslation()
   return (
+  <>
+  <NavBar />
     <motion.div key="modal" initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}>
-      <NavBar />
-      <div className="max-w-5xl py-8 align-center dark:text-slate-300 items-center">
+      <div className="py-8 align-center dark:text-slate-300 ">
         <h2 className="m-0 leading-tight text-4xl text-center">
           {t('common:label_work')}
         </h2>
-        <div className="mt-14">
+        <div className="mt-14 items-center">
           {work.map((item: any, index: number) => (
             <div
               key={index}
-              className="m-6 p-12 text-left border border-gray-200 rounded-xl"
+              className="max-w-5xl m-6 p-12 text-left border border-gray-200 rounded-xl"
             >
               <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                 <div className="...">
@@ -55,5 +56,6 @@ export default function Work({ work }: any) {
         </div>
       </div>
     </motion.div>
+    </>
   )
 }

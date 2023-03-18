@@ -26,8 +26,9 @@ function ViewMoreText(props: any) {
 export default function Projects({ projects }: any) {
   const { t } = useTranslation()
   return (
-    <motion.div key="modal" initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}>
+    <>
     <NavBar />
+    <motion.div key="modal" initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}>
     <div className="max-w-5xl py-8 dark:text-slate-300 items-center">
         <h2 className="leading-tight text-4xl text-center">
           {t('common:label_projects')}
@@ -68,5 +69,6 @@ export default function Projects({ projects }: any) {
         </div>
     </div>
     </motion.div>
+    </>
   )
 }

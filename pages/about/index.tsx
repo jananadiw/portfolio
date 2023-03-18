@@ -24,10 +24,11 @@ export default function About() {
   }
 
   return (
-    <motion.div key="modal" initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}>
+    <>
     <NavBar />
-    <div className="m-0 py-12 dark:text-slate-300">
-        <div className='max-w-5xl m-4 p-2 border text-lg text-left border-gray-200 rounded-xl'>
+    <motion.div key="modal" initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}>
+    <div className="max-w-5xl py-8 dark:text-slate-300">
+        <div className='m-4 p-2 border text-lg text-left border-gray-200 rounded-xl'>
         <h2 className="leading-tight text-4xl text-center">{t('title')}</h2>
           <div className="m-8 whitespace-pre-line">
             <Trans
@@ -98,5 +99,6 @@ export default function About() {
         </div>
         </div>
     </motion.div>
+    </>
   )
 }

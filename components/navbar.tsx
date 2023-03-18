@@ -20,7 +20,7 @@ export default function NavBar() {
   }
   
   return (
-    <div className={classNames(scrollPosition > 0 ? 'shadow': 'shadow-none', 'transition-shadow m-0 p-16 dark:text-slate-300 dark:bg-neutral-900 bg-white h-20 items-center align-center sticky top-0')}>
+    <div className={classNames(scrollPosition > 0 ? 'shadow': 'shadow-none', 'transition-shadow m-0 p-16 dark:text-slate-300 dark:bg-neutral-900 bg-white h-20 items-center align-center sticky top-0 w-full')}>
       <div className="hidden md:block text-base">
         <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
           {menuItems.map((menu) => {
